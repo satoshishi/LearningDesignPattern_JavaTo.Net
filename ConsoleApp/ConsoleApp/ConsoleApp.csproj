@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ISampleGenerater.cs" />
+    <Compile Include="Iterator Sample\Aggregate\Aggregate.cs" />
+    <Compile Include="Iterator Sample\Aggregate\BookShelf.cs" />
+    <Compile Include="Iterator Sample\Book.cs" />
+    <Compile Include="Iterator Sample\IteratorSample.cs" />
+    <Compile Include="Iterator Sample\Iterator\Iterator.cs" />
+    <Compile Include="Iterator Sample\Iterator\ReverseIterator.cs" />
+    <Compile Include="Iterator Sample\Iterator\SimpleIterator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

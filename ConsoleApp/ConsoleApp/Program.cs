@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleApp.Iterator_Sample;
 
 namespace ConsoleApp
 {
@@ -10,7 +11,10 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.Write("hello");
+            ISampleGenerater generater = new IteratorSample();
+            generater.generateSample();
+
+            return;
         }
     }
 }
