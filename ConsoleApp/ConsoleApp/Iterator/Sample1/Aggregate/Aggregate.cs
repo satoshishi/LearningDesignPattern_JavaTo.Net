@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp.Iterator_Sample
+namespace ConsoleApp.Iterator.Sample1
 {
     public interface Aggregate<ELEMENT>
     {
