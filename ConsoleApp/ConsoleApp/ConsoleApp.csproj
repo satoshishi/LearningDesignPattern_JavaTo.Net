@@ -44,18 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ISampleGenerater.cs" />
-    <Compile Include="Iterator Sample\Aggregate\Aggregate.cs" />
-    <Compile Include="Iterator Sample\Aggregate\BookShelf.cs" />
-    <Compile Include="Iterator Sample\Book.cs" />
-    <Compile Include="Iterator Sample\IteratorSample.cs" />
-    <Compile Include="Iterator Sample\Iterator\Iterator.cs" />
-    <Compile Include="Iterator Sample\Iterator\ReverseIterator.cs" />
-    <Compile Include="Iterator Sample\Iterator\SimpleIterator.cs" />
+    <Compile Include="Iterator\Sample1\Aggregate\Aggregate.cs" />
+    <Compile Include="Iterator\Sample1\Aggregate\BookShelf.cs" />
+    <Compile Include="Iterator\Sample1\Book.cs" />
+    <Compile Include="Iterator\Sample1\IteratorSample1.cs" />
+    <Compile Include="Iterator\Sample1\Iterator\Iterator.cs" />
+    <Compile Include="Iterator\Sample1\Iterator\ReverseIterator.cs" />
+    <Compile Include="Iterator\Sample1\Iterator\SimpleIterator.cs" />
+    <Compile Include="Iterator\Sample2\CollectionBase.cs" />
+    <Compile Include="Iterator\Sample2\IteratorSample2.cs" />
+    <Compile Include="Iterator\Sample2\SimpleCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

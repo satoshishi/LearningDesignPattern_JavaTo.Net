@@ -5,14 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using ConsoleApp;
 
-namespace ConsoleApp.Iterator_Sample
+namespace ConsoleApp.Iterator.Sample1
 {
-    //書いてみた感想
-    //・ループ処理とそれ以外を分離することで、ループ処理を再利用できるのはいいなと感じた。
-    //・再利用できる形をとることで、ループを回す処理自体の動作保証がとれるのは、結構配列境界外みたいなエラーを出す自分的には、ありがたい
-    //・本のサンプルはIterator側がAggregate側に結構依存する形で気持ち悪かったので、依存する要素をプロパティだけにしてAggregate側の改修
-    //　に依存しないようにしてみたが、Genericを使った関係で呼び出し側に依存が出てしまったのが、どうにかしたかった。
-    class IteratorSample :ISampleGenerater
+    /// <summary>
+    /// 本の方を読んでみて、なんとなく書き換えてみたバージョン
+    /// </summary>
+    class IteratorSample1 :ISampleGenerater
     {
         public void generateSample()
         {
