@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using ConsoleApp;
 
-namespace ConsoleApp.Iterator.Sample1
+namespace Iterator.Sample1
 {
     /// <summary>
     /// 本の方を読んでみて、なんとなく書き換えてみたバージョン

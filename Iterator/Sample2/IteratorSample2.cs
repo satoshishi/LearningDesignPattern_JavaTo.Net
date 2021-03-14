@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using ConsoleApp;
 
-namespace ConsoleApp.Iterator.Sample2
+namespace Iterator.Sample2
 {
     class IteratorSample2 : ISampleGenerater
     {

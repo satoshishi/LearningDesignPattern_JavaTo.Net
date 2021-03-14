@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp.Iterator.Sample1
+namespace Iterator.Sample1
 {
     class BookShelf : Aggregate<Book>
     {

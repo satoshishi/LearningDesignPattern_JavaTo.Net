@@ -3,9 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp.Iterator.Sample2
+namespace Iterator.Sample2
 {
     public abstract class CollectionBase<ELEMENT> : IEnumerable<ELEMENT>
     {

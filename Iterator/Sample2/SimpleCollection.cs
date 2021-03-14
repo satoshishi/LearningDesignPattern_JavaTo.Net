@@ -3,9 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp.Iterator.Sample2
+namespace Iterator.Sample2
 {
     class SimpleCollection<ELEMENT> : CollectionBase<ELEMENT>
     {
