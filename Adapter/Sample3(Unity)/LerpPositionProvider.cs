@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Adapter
+namespace Adapter.Sample3
 {
     public class LerpPositionProvider : MonoBehaviour,IPositionProvider
     {    
