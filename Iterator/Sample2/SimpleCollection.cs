@@ -28,7 +28,7 @@ namespace Iterator.Sample2
 
         #region シンプルなイテレータ  
 
-        class SimpleIterator<_ELEMENT> : IEnumerator<_ELEMENT>
+        public class SimpleIterator<_ELEMENT> : IEnumerator<_ELEMENT>
         {
             public IEnumerable<_ELEMENT> elements
             {
